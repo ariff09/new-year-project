@@ -8,7 +8,7 @@ section {
 }
 
 .banner {
-  background: url(/images/banner/banner3.png);
+  background: url(../images/banner/banner3.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -129,7 +129,7 @@ section {
 
 /* gradient styles */
 .gradient {
-  background-image: url(/images/watchngradient.png);
+  background-image: url(../images/gradient1.png), url(../images/watch.png);
   background-repeat: no-repeat;
   background-position: center;
   height: 45vh;
@@ -145,6 +145,28 @@ section {
 }
 
 .gradient-title {
+  margin-bottom: 24px;
+}
+
+/* extra section styles */
+
+.extra{
+  background-image: url(../images/gradient1.2.png), url(../images/extra.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 45vh;
+}
+.extra-items{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  padding-right: 450px;
+  padding-top: 120px;
+  color: #ffffff;
+  text-align: right;
+}
+
+.extra-sec-title{
   margin-bottom: 24px;
 }
 
@@ -205,3 +227,4 @@ section {
 .icons {
   padding-right: 17px;
 }
+
