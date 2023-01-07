@@ -41,7 +41,7 @@ section {
   margin-bottom: 32px;
 }
 
-.banner-btn {
+.primary-btn {
   background: #ffffff;
   border: 0;
   padding: 20px 25px;
@@ -126,3 +126,24 @@ section {
   line-height: 29px;
   color: #737272;
 }
+
+/* gradient styles */
+.gradient {
+  background-image: url(/images/watchngradient.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 45vh;
+}
+
+.gradient-item {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  padding-left: 450px;
+  padding-top: 60px;
+  color: #ffffff;
+}
+.gradient-title{
+  margin-bottom: 24px;
+}
+/*  */
