@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  font-family: 'Work Sans', 'Sans-Sherif';
+}
+
+section {
+  margin-bottom: 130px;
+}
+
+.banner {
+  background: url(/images/banner/banner3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* banner styles */
+.banner-text {
+  text-align: right;
+}
+
+.banner-items {
+  text-align: right;
+  padding: 216px 230px;
+}
+
+.banner-title {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 70px;
+  color: #fff;
+  margin-bottom: 24px;
+
+}
+
+.banner-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+
+.banner-btn {
+  background: #ffffff;
+  border: 0;
+  padding: 20px 25px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #005FAC;
+}
+
+/* My failure style */
+.myf {
+  display: flex;
+  gap: 84px;
+  align-items: center;
+  padding: 0 350px;
+}
+
+.myf-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 24px;
+}
+
+.myf-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 16px;
+  color: #444343;
+}
+
+.myf-ul {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  list-style: none;
+}
+
+.myf-ul li:before {
+  content: '✓';
+  padding-right: 10px;
+}
+
+.myf-container {
+  text-align: left;
+}
+
+/* my plans style */
+.myplan {}
+
+.myplan-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.myplan-items {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+
+.myplan-item-container {
+  align-items: center;
+  text-align: center;
+}
+
+.myplan-subtitle {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  margin: 20px 0 16px 0;
+}
+
+.myplan-description {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #737272;
+}
